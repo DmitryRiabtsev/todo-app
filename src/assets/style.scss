@@ -1,0 +1,31 @@
+@import './base.css';
+
+#app{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+
+  header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(198, 151, 241);
+    justify-content: center;
+    align-items: center;
+
+    nav{
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  main{
+    width: 100%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+  }
+}
